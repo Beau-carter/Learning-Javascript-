@@ -1,0 +1,35 @@
+alert('try this lotr quiz!');
+var question1 = prompt('What is the real name of Gollum?');
+if (question1 === 'smeagol') {
+  alert('Correct!');
+} else {
+  alert('Sorry, the answer is Smeagol');
+}
+
+var question2 = prompt('How many rings of power were forged?');
+if (question2 === '19') {
+  alert('Correct!');
+} else {
+  alert('Sorry, the answer is 19');
+}
+
+var question3 = prompt('What creature is Shelob?');
+if (question3 === 'spider') {
+  alert('Correct!');
+} else {
+  alert('Sorry, the answer is spider');
+}
+
+var question4= prompt('The great Eye is located where?');
+if (question4=== 'mordor') {
+  alert('Correct!');
+} else {
+  alert('Sorry, the answer is mordor');
+}
+
+var question5 = prompt('Who was Saurons master?');
+if (question5 === 'morgoth' || question5 === 'melcore') {
+  alert('Correct!');
+} else {
+  alert('Sorry, the answer is morgoth or melcore');
+}
